@@ -9,8 +9,7 @@ func IntSlice(n int, data []int) [][]int {
 	}
 
 	if n == 1 {
-		result = append(result, data)
-		return result
+		return append(result, data)
 	}
 
 	return result
